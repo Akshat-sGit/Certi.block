@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import SignIn from "./screens/Signin";
 import SignUp from "./screens/Signup";
-import Home from "./Screens/Home";
+import Home from "./screens/Home";
 
 function App() {
 const email = localStorage.getItem("email");

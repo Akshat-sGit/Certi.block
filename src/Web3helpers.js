@@ -1,4 +1,4 @@
-import Web3 from "web3/dist/web3.min.js";
+import Web3 from "/node_modules/web3/dist/web3.min.js";
 
 import Auth from "./build/contracts/Auth.json";
 
