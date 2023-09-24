@@ -10,7 +10,7 @@ contract NFT is ERC1155, AccessControl{
     using Counters for Counters.Counter;
     Counters.Counter private idCounter;
 
-    constructor() ERC1155("https://bafybeidpdvd4zb4mqbl77oqtooztduftdbm2iz7q64dcobwarbmkbg5jpi.ipfs.w3s.link/NFT_metadata.json") {
+    constructor() ERC1155("") {
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
     }
 
